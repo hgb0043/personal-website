@@ -11,16 +11,12 @@ if (mode === 'dark') {
   });
 
   document.querySelector('header').style.boxShadow = '0 2px 4px rgba(90,90,90,1)';
-
-  console.log('mode upon loading was dark');
 }
 
 // Triggers functions to be ran when moon icon is clicked.
 document.querySelector('.js-moon').addEventListener('click', () => {
   updateMode();
   toggleMode();
-
-  console.log('moon was selected.');
 });
 
 // Changes which mode is on.
@@ -36,7 +32,7 @@ export function updateMode() {
 export function toggleMode() {
   mode = mode === 'light' ? 'dark' : 'light';
 
-  localStorage.setItem('mode', mode)
+  localStorage.setItem('mode', mode);
 
   console.log(`${mode} mode turned on`);
 }

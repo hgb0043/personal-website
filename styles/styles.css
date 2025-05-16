@@ -48,17 +48,6 @@ main {
   margin-right: 28px;
 }
 
-@media (min-width: 750px) {
-  .bio-section {
-    margin: 0 75px 0 75px;
-  }
-
-  #home {
-    margin-left: 175px;
-  }
-
-}
-
 .bio-section-main {
   display: flex;
   flex-direction: column;
@@ -131,19 +120,6 @@ h1 {
   width: 100%;
 }
 
-@media (max-width: 750px) {
-  .additional-info-section {
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 0px;
-  }
-  
-  .about-me-description {
-    margin-left: 6px;
-    font-size: 14px;
-  }
-}
-
 .interests-section, .education-section {
   display: flex;
   flex-direction: column;
@@ -200,6 +176,33 @@ ul, .education-info {
   margin-right: 4px;
 }
 
+/* When displayed on a laptop/desktop screen at full screen. */
+@media (min-width: 750px) {
+  .bio-section {
+    margin: 0 75px 0 75px;
+  }
+
+  #home {
+    margin-left: 175px;
+  }
+
+}
+
+/* Mainly for using half the screen on a laptop/desktop */
+@media (max-width: 750px) {
+  .additional-info-section {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0px;
+  }
+  
+  .about-me-description {
+    margin-left: 6px;
+    font-size: 14px;
+  }
+}
+
+/* For mobile users */
 @media (max-width: 550px) {
   main {
     flex-direction: column;

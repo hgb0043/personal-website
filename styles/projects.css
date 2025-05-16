@@ -69,7 +69,9 @@ html.dark-mode {
   color: white;
 }
 
+/* For mobile users */
 @media (max-width: 550px) {
+
   #home {
     margin: 0 25px 0 40px;
   }
