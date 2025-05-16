@@ -1,2 +1,1 @@
 import { mode, toggleMode, updateMode } from './script.js';
-

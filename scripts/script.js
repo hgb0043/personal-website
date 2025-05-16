@@ -17,6 +17,8 @@ if (mode === 'dark') {
 document.querySelector('.js-moon').addEventListener('click', () => {
   updateMode();
   toggleMode();
+
+  document.documentElement.classList.toggle('dark-mode');
 });
 
 // Changes which mode is on.
@@ -36,7 +38,3 @@ export function toggleMode() {
 
   console.log(`${mode} mode turned on`);
 }
-
- document.querySelector('.js-moon').addEventListener('click', () => {
-      document.documentElement.classList.toggle('dark-mode');
-    });
