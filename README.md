@@ -6,7 +6,7 @@ A personal website that includes a short bio, an about-me paragraph, and some ad
 
 [Click here to view the live site](https://hgb0043.github.io/personal-website/code/code/index.html)
 
-## 📸 Screenshots
+## 📸 Home Page Screenshot (As of May 16 2025)
 
 ![Screenshot](./images/personal-website-screenshot-5-16-2025.png)
 
